@@ -7,3 +7,5 @@
 
 
 [Live demo](https://amansgz.github.io/static_website2/)
+
+![preview screenshot](./styles/imgs/preview.png)
