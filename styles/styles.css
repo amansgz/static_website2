@@ -11,21 +11,20 @@
   --very-soft-orange: #EFD6AC;
   --strong-orange :#c44900;
   --very-dark-desaturated-pink:#432534;
-  
 
   --bg-body: var(--white);
   --clr-text-color: var(--black-blue);
 
   --clr-link-brand: var(--light-gray);
   --clr-nav-link: var(--white);
-  --clr-text-hover: var(--strong-orange);
+  --clr-text-hover: var(--black-blue);
   --clr-hover: var(--light-grayish);
-  --clr-heading-bar-title: var(--very-dark-desaturated-cyan);
+  --clr-heading-bar-title: var(--black-blue);
   
-  --bg-header: var(--strong-orange);
+  --bg-header: var(--black-blue);
   --bg-nav-link: var(--very-dark-desaturated-cyan);
-  --bg-hero-bar-title: var(--light-gray);
-  --bg-container: var(--white);
+  --bg-hero-bar-title: var(--light-grayish);
+  --bg-container:  var(--light-gray);
 
 
   /* Font families */
@@ -68,7 +67,6 @@ p {
 *************/
 .header {
   background-color: var(--bg-header);
- 
 }
 .nav {
   display: flex;
@@ -95,7 +93,7 @@ p {
   color: var(--clr-nav-link);
   letter-spacing: 1px; 
   background-color: var(--bg-nav-link);
-  box-shadow: 6px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.6);
   transition: .1s ease;
 }
 .nav__menu li a:hover {
@@ -113,7 +111,7 @@ p {
   background-image: url(./imgs/image1.jpg);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 100%;
+  background-size: cover;
   height: 600px;
 }
 
@@ -127,8 +125,8 @@ p {
   word-spacing: 2px;
   color: var(--clr-heading-bar-title);
   background-color: var(--bg-hero-bar-title);
-  border-top: 5px solid var(--very-dark-desaturated-cyan);
-  border-bottom: 5px solid var(--very-dark-desaturated-cyan);
+  border-top: 5px solid var(--black-blue);
+  border-bottom: 5px solid var(--black-blue);
 }
 
 .container {
@@ -175,6 +173,6 @@ p {
 /************* 
   Contact
 *************/
-.content p:first-child {
+.contact p:first-child {
   margin-bottom: 2rem;
 }
