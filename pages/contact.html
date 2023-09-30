@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="First 2019 coding bootcamp project"> 
-    <title>NYSL | Contact</title>
-    <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/style2.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- styles -->
+	<link rel="stylesheet" href="../styles/styles.css">
+	<title>NYSL | Contact</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="title">
-            Northside Youth Soccer League
-        </h1>
-        <h2 class="subtitle">
-            Contact
-        </h2>
+	<header class= "header">
+		<nav class= "nav">
+			<h1 class= "nav__brand">
+				Northside Youth Soccer League
+			</h1>
+		
+			<ul class= "nav__menu">
+				<li>
+					<a href="../index.html">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href= "./about.html">
+						About
+					</a>
+				</li>
+				<li>
+					<a class="current"
+						href="#">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
 
-        <nav class="navbar">
-            <ul class="menu">
-                <li class="item">
-                    <a class="link" href="../index.html">Home</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="about.html">About NYSL</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="game_info.html">Fall Schedule</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="rules.html">Rules of Play &amp; Policies</a>
-                </li>            
-                <li class="item">
-                    <a class="link" href="register.html">Register</a>
-                </li>
-                <li class="item">
-                    <a class="link current" href= "#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+	<main>
+		<section class= "hero__section">
+			<div class="hero__container">
+				<h2 class= "hero__bar__title">
+					Contact Us
+				</h2>  
+			</div>
+		</section>
 
-    <main>
-        <div class="container">
-            <figure class="figure">
-                <img 
-                    class="img_logo" 
-                    src="../styles/imgs/nysl_logo.png" 
-                    alt= "logo northside youth soccer league">
-            </figure>
-            <section class="events">
-                <p>Please email us at <a href="mailto:nysl@chisoccer.org">nysl@chisoccer.org</a></p>
-                <p>We will reply to your email as soon as we can.</p>
-            </section>
-        </div>
-    </main>
+		<section>
+			<div class="container">
+				<div class="logo">
+					<img 
+						src="../styles/imgs/nysl_logo.png" 
+						alt= "logo northside youth soccer league">
+				</div>
+				<div class="content">
+					<p>
+						Please email us at 
+						<a href="mailto:nysl@chisoccer.org">
+							nysl@chisoccer.org
+						</a>
+					</p>
+					<p>
+						We will reply to your email as soon as we can.
+					</p>
+				</div>
+			</div>
+		</section>	
+	</main>
 </body>
 </html>
